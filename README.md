@@ -27,16 +27,14 @@ Users have a list of friends and brands they follow. Brandshave a list of simila
   - Turn an adjacency matrix represented in a txt file into a network of brands. This txt file will be formatted in a specific way:
     - The first row will be brand names. Each brand name will be unique and will be separated by one space character.
     - The following rows will create a NxN matrix. This will be a valid adjacency matrix, so the element at (x, y) = the element at (y,x). The values will be either 0 or 1 and will be separated by one space character.
-  - Note how we will not be adding new brands as we go along, nor removing brands.
-  - We have included some starter code here related to reading from a file. Please post any further questions on Piazza.
 - connect_similar_brands(Brand a, Brand b)
-  - Some brands are very alike, we should be able to maintain a record of similar brands.
+  - Some brands are very alike, so have a database to maintain a record of similar brands.
 - remove_similar_brands(Brand a, Brand b)
 - print_brand_data(Brand brand)
   - Prints out: the brand name and a list of similar brands. See the assignment for the exact print functions to be used.
   
 
-Many social media companies have a “suggested friends” feature. We have a buildin function to get a smart suggested friend. 
+Many social media companies have a “suggested friends” feature. I have a buildin function to get a smart suggested friend. 
 Returns the not-already-friended user with the most brands they follow in common. If there’s a tie, returns the user with the most friends in common. 
 If there’s still a tie, returns reverse-alphabetically.
 
