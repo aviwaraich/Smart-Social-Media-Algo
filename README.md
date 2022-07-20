@@ -18,7 +18,7 @@ Users have a list of friends and brands they follow. Brandshave a list of simila
     - Alphabetically.
 - unfollow_brand(User user, Brand brand)
 - print_user_data(User user)
-    - Prints out: the user‘s name, the user’s list of friends, and a list of brands they follow. See the assignment for the exact print functions to be used.
+    - Prints out: the user‘s name, the user’s list of friends, and a list of brands they follow.
 - get_degrees_of_connection(User a, User b) 
     - Distance between two users.
 
@@ -31,7 +31,7 @@ Users have a list of friends and brands they follow. Brandshave a list of simila
   - Some brands are very alike, so have a database to maintain a record of similar brands.
 - remove_similar_brands(Brand a, Brand b)
 - print_brand_data(Brand brand)
-  - Prints out: the brand name and a list of similar brands. See the assignment for the exact print functions to be used.
+  - Prints out: the brand name and a list of similar brands.
   
 
 Many social media companies have a “suggested friends” feature. I have a buildin function to get a smart suggested friend. 
